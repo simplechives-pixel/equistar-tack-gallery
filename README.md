@@ -1,0 +1,1 @@
+# equistar-tack-gallery
