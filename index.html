@@ -220,9 +220,22 @@
 
       <select id="typeFilter">
         <option value="all">All Tack</option>
-        <option value="bridle">Bridles</option>
-        <option value="saddle">Saddles</option>
         <option value="blanket">Blankets</option>
+        <option value="breast-collar">Breast Collars</option>
+        <option value="bridle">Bridles</option>
+        <option value="earbonnet">Earbonnets</option>
+        <option value="flymask">Flymasks</option>
+        <option value="girth-strap">Girth Straps</option>
+        <option value="halter">Halters</option>
+        <option value="horse-armor">Horse Armor</option>
+        <option value="leg-wrap">Leg Wraps</option>
+        <option value="saddle-bag">Saddle Bags</option>
+        <option value="saddle">Saddles</option>
+        <option value="turnout-blanket">Turnout Blankets</option>
+      </select>
+
+      <select id="styleFilter" style="display: none;">
+        <option value="all">All Styles</option>
       </select>
 
       <select id="modelFilter">
@@ -268,6 +281,93 @@
 
     let currentSearch = "";
 
+    const stylesByType = {
+      saddle: [
+        {
+          value: "adventure",
+          label: "Adventure"
+        },
+        {
+          value: "english",
+          label: "English"
+        },
+        {
+          value: "liberty-bareback",
+          label: "Liberty/Bareback"
+        },
+        {
+          value: "specialty",
+          label: "Specialty"
+        },
+        {
+          value: "western",
+          label: "Western"
+        }
+      ],
+
+      blanket: [
+        {
+          value: "adventure",
+          label: "Adventure"
+        },
+        {
+          value: "english",
+          label: "English"
+        },
+        {
+          value: "english-quarter-sheets",
+          label: "English Quarter Sheets"
+        },
+        {
+          value: "liberty-bareback",
+          label: "Liberty/Bareback"
+        },
+        {
+          value: "racing",
+          label: "Racing"
+        },
+        {
+          value: "western",
+          label: "Western"
+        }
+      ]
+    };
+
+    function updateStyleFilter() {
+      const type =
+        document
+          .getElementById("typeFilter")
+          .value;
+
+      const styleFilter =
+        document.getElementById("styleFilter");
+
+      const styles =
+        stylesByType[type];
+
+      if (!styles) {
+        styleFilter.style.display = "none";
+        styleFilter.innerHTML =
+          '<option value="all">All Styles</option>';
+        styleFilter.value = "all";
+        return;
+      }
+
+      styleFilter.style.display = "";
+
+      styleFilter.innerHTML =
+        '<option value="all">All Styles</option>' +
+        styles
+          .map(style => `
+            <option value="${style.value}">
+              ${style.label}
+            </option>
+          `)
+          .join("");
+
+      styleFilter.value = "all";
+    }
+
     function resizeWebFrame() {
       const width =
         document.documentElement.scrollWidth;
@@ -309,6 +409,11 @@
           .getElementById("typeFilter")
           .value;
 
+      const style =
+        document
+          .getElementById("styleFilter")
+          .value;
+
       const model =
         document
           .getElementById("modelFilter")
@@ -330,6 +435,13 @@
           }
 
           if (
+            style !== "all" &&
+            item.style !== style
+          ) {
+            return false;
+          }
+
+          if (
             mod !== "all" &&
             item.mod !== mod
           ) {
@@ -344,6 +456,8 @@
                 item.name +
                 " " +
                 item.type +
+                " " +
+                (item.style || "") +
                 " " +
                 item.mod
               ).toLowerCase();
@@ -428,6 +542,16 @@
       .getElementById("typeFilter")
       .addEventListener(
         "change",
+        () => {
+          updateStyleFilter();
+          renderGallery();
+        }
+      );
+
+    document
+      .getElementById("styleFilter")
+      .addEventListener(
+        "change",
         renderGallery
       );
 
@@ -489,6 +613,8 @@
     resizeObserver.observe(
       document.body
     );
+
+    updateStyleFilter();
 
     renderGallery();
 
