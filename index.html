@@ -298,16 +298,16 @@
 
       styleFilter.innerHTML = "";
 
-      if (styles.length === 0) {
-        styleFilter.style.display = "none";
-        styleFilter.value = "all";
-        return;
-      }
-
       const allOption = document.createElement("option");
       allOption.value = "all";
       allOption.textContent = "All Styles";
       styleFilter.appendChild(allOption);
+
+      if (styles.length === 0) {
+        styleFilter.value = "all";
+        styleFilter.style.display = "none";
+        return;
+      }
 
       styles.forEach(style => {
         const option = document.createElement("option");
