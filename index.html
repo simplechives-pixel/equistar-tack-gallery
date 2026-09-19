@@ -55,6 +55,13 @@
 
     button {
       cursor: pointer;
+      background: #111111;
+      color: #ffffff;
+      border-color: #111111;
+    }
+
+    button:hover {
+      background: #333333;
     }
 
     #gallery {
@@ -330,7 +337,10 @@
 
         const matchesModel =
           selectedModel === "all" ||
-          item.images[selectedModel];
+          (
+            item.images &&
+            item.images[selectedModel]
+          );
 
         const matchesMod =
           selectedMod === "all" ||
@@ -341,7 +351,7 @@
         const matchesSearch =
           !searchText ||
           item.name.toLowerCase().includes(searchText) ||
-          item.type.toLowerCase().includes(searchText) ||
+          (item.type || "").toLowerCase().includes(searchText) ||
           (item.style || "").toLowerCase().includes(searchText) ||
           (item.mod || "").toLowerCase().includes(searchText);
 
