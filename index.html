@@ -1,15 +1,225 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>WebFrame Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Equistar Tack Gallery</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+
+    body {
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+      color: #1f1f1f;
+      background: transparent;
+    }
+
+    /* Main gallery */
+
+    #gallery {
+      width: 100%;
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+      gap: 20px;
+    }
+
+    /* Individual tack item */
+
+    .item {
+      width: 100%;
+      min-width: 0;
+    }
+
+    /* The three horse-model images */
+
+    .images {
+      width: 100%;
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+      gap: 5px;
+    }
+
+    .images img {
+      display: block;
+
+      width: 100%;
+      aspect-ratio: 4 / 3;
+
+      object-fit: cover;
+
+      border-radius: 6px;
+    }
+
+    /* Tack name */
+
+    .name {
+      width: 100%;
+
+      margin-top: 8px;
+
+      text-align: center;
+
+      font-size: 14px;
+      line-height: 1.3;
+
+      font-weight: 600;
+    }
+  </style>
 </head>
 
-<body style="margin: 0; padding: 30px; background: red; color: white; font-family: Arial, sans-serif;">
+<body>
 
-  <h1>WEBFRAME TEST</h1>
+  <div id="gallery">
 
-  <p>If you can see this, GitBook can successfully display the GitHub Pages site.</p>
+    <!-- Lavender Bridle -->
+
+    <div class="item">
+
+      <div class="images">
+
+        <img
+          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
+          alt="Lavender Bridle - Light Model"
+        >
+
+        <img
+          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
+          alt="Lavender Bridle - Medium Model"
+        >
+
+        <img
+          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
+          alt="Lavender Bridle - Dark Model"
+        >
+
+      </div>
+
+      <div class="name">
+        Lavender Bridle
+      </div>
+
+    </div>
+
+
+    <!-- Rose Saddle -->
+
+    <div class="item">
+
+      <div class="images">
+
+        <img
+          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
+          alt="Rose Saddle - Light Model"
+        >
+
+        <img
+          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
+          alt="Rose Saddle - Medium Model"
+        >
+
+        <img
+          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
+          alt="Rose Saddle - Dark Model"
+        >
+
+      </div>
+
+      <div class="name">
+        Rose Saddle
+      </div>
+
+    </div>
+
+
+    <!-- Black Blanket -->
+
+    <div class="item">
+
+      <div class="images">
+
+        <img
+          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
+          alt="Black Blanket - Light Model"
+        >
+
+        <img
+          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
+          alt="Black Blanket - Medium Model"
+        >
+
+        <img
+          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
+          alt="Black Blanket - Dark Model"
+        >
+
+      </div>
+
+      <div class="name">
+        Black Blanket
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script>
+
+    /*
+     * Tell GitBook that the WebFrame is ready.
+     */
+
+    window.parent.postMessage(
+      {
+        action: {
+          action: "@webframe.ready"
+        }
+      },
+      "*"
+    );
+
+
+    /*
+     * Tell GitBook how large the WebFrame should be.
+     */
+
+    window.parent.postMessage(
+      {
+        action: {
+          action: "@webframe.resize",
+
+          aspectRatio: 1.5,
+
+          maxHeight: 1200
+        }
+      },
+      "*"
+    );
+
+  </script>
 
 </body>
 </html>
