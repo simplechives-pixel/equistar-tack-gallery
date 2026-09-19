@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,7 +30,87 @@
       background: transparent;
     }
 
-    /* Main gallery */
+    /* =========================
+       CONTROLS
+       ========================= */
+
+    #controls {
+      width: 100%;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      gap: 16px;
+
+      margin-bottom: 20px;
+    }
+
+    #filters {
+      display: flex;
+      align-items: center;
+
+      gap: 8px;
+    }
+
+    #searchArea {
+      display: flex;
+      align-items: center;
+
+      gap: 8px;
+    }
+
+    select,
+    input {
+      height: 36px;
+
+      padding: 0 10px;
+
+      border: 1px solid #d6d6d6;
+      border-radius: 6px;
+
+      background: white;
+
+      color: #1f1f1f;
+
+      font-family: inherit;
+      font-size: 14px;
+    }
+
+    select {
+      min-width: 125px;
+    }
+
+    input {
+      width: 190px;
+    }
+
+    button {
+      height: 36px;
+
+      padding: 0 14px;
+
+      border: none;
+      border-radius: 6px;
+
+      background: #1f1f1f;
+      color: white;
+
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 600;
+
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.85;
+    }
+
+
+    /* =========================
+       GALLERY
+       ========================= */
 
     #gallery {
       width: 100%;
@@ -42,14 +123,20 @@
       gap: 20px;
     }
 
-    /* Individual tack item */
+
+    /* =========================
+       TACK ITEM
+       ========================= */
 
     .item {
       width: 100%;
       min-width: 0;
     }
 
-    /* The three horse-model images */
+
+    /* =========================
+       MODEL IMAGES
+       ========================= */
 
     .images {
       width: 100%;
@@ -62,10 +149,16 @@
       gap: 5px;
     }
 
+    .images.single {
+      grid-template-columns:
+        minmax(0, 1fr);
+    }
+
     .images img {
       display: block;
 
       width: 100%;
+
       aspect-ratio: 4 / 3;
 
       object-fit: cover;
@@ -73,7 +166,10 @@
       border-radius: 6px;
     }
 
-    /* Tack name */
+
+    /* =========================
+       TACK NAME
+       ========================= */
 
     .name {
       width: 100%;
@@ -87,109 +183,497 @@
 
       font-weight: 600;
     }
+
+
+    /* =========================
+       NO RESULTS
+       ========================= */
+
+    #noResults {
+      display: none;
+
+      width: 100%;
+
+      padding: 40px 20px;
+
+      text-align: center;
+
+      color: #777;
+
+      font-size: 15px;
+    }
+
+
+    /* =========================
+       MOBILE
+       ========================= */
+
+    @media (max-width: 700px) {
+
+      #controls {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      #filters {
+        flex-wrap: wrap;
+      }
+
+      #searchArea {
+        width: 100%;
+      }
+
+      #searchArea input {
+        flex: 1;
+        width: auto;
+      }
+
+      #gallery {
+        grid-template-columns:
+          repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 450px) {
+
+      #gallery {
+        grid-template-columns:
+          minmax(0, 1fr);
+      }
+    }
+
   </style>
 </head>
 
+
 <body>
 
-  <div id="gallery">
 
-    <!-- Lavender Bridle -->
+  <!-- =========================
+       FILTERS + SEARCH
+       ========================= -->
 
-    <div class="item">
+  <div id="controls">
 
-      <div class="images">
+    <div id="filters">
 
-        <img
-          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
-          alt="Lavender Bridle - Light Model"
-        >
-
-        <img
-          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
-          alt="Lavender Bridle - Medium Model"
-        >
-
-        <img
-          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
-          alt="Lavender Bridle - Dark Model"
-        >
-
-      </div>
-
-      <div class="name">
-        Lavender Bridle
-      </div>
-
-    </div>
+      <select id="typeFilter">
+        <option value="all">All Tack</option>
+        <option value="bridle">Bridles</option>
+        <option value="saddle">Saddles</option>
+        <option value="blanket">Blankets</option>
+      </select>
 
 
-    <!-- Rose Saddle -->
+      <select id="modelFilter">
+        <option value="all">All Models</option>
+        <option value="light">Light</option>
+        <option value="medium">Medium</option>
+        <option value="dark">Dark</option>
+      </select>
 
-    <div class="item">
 
-      <div class="images">
-
-        <img
-          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
-          alt="Rose Saddle - Light Model"
-        >
-
-        <img
-          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
-          alt="Rose Saddle - Medium Model"
-        >
-
-        <img
-          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
-          alt="Rose Saddle - Dark Model"
-        >
-
-      </div>
-
-      <div class="name">
-        Rose Saddle
-      </div>
+      <select id="modFilter">
+        <option value="all">All Mods</option>
+        <option value="tres">Tre's Tack</option>
+        <option value="bageks">Bageks</option>
+      </select>
 
     </div>
 
 
-    <!-- Black Blanket -->
+    <div id="searchArea">
 
-    <div class="item">
+      <input
+        id="searchInput"
+        type="text"
+        placeholder="Search tack..."
+      >
 
-      <div class="images">
-
-        <img
-          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
-          alt="Black Blanket - Light Model"
-        >
-
-        <img
-          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
-          alt="Black Blanket - Medium Model"
-        >
-
-        <img
-          src="https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg"
-          alt="Black Blanket - Dark Model"
-        >
-
-      </div>
-
-      <div class="name">
-        Black Blanket
-      </div>
+      <button id="searchButton">
+        Search
+      </button>
 
     </div>
 
   </div>
 
 
+  <!-- =========================
+       GALLERY
+       ========================= -->
+
+  <div id="gallery"></div>
+
+  <div id="noResults">
+    No tack matches your search.
+  </div>
+
+
   <script>
 
     /*
-     * Tell GitBook that the WebFrame is ready.
+     * Temporary image used for all three test items.
+     *
+     * We'll replace these URLs with your actual
+     * horse-model screenshots later.
+     */
+
+    const imageUrl =
+      "https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg";
+
+
+    /*
+     * =========================
+     * TACK DATA
+     * =========================
+     *
+     * Each tack item exists only ONCE.
+     *
+     * It contains three images:
+     *
+     * light
+     * medium
+     * dark
+     *
+     * This is important because we don't want
+     * three separate gallery entries for one item.
+     */
+
+    const tackItems = [
+
+      {
+        name: "Lavender Bridle",
+
+        type: "bridle",
+
+        mod: "tres",
+
+        images: {
+          light: imageUrl,
+          medium: imageUrl,
+          dark: imageUrl
+        }
+      },
+
+
+      {
+        name: "Rose Saddle",
+
+        type: "saddle",
+
+        mod: "bageks",
+
+        images: {
+          light: imageUrl,
+          medium: imageUrl,
+          dark: imageUrl
+        }
+      },
+
+
+      {
+        name: "Black Blanket",
+
+        type: "blanket",
+
+        mod: "tres",
+
+        images: {
+          light: imageUrl,
+          medium: imageUrl,
+          dark: imageUrl
+        }
+      }
+
+    ];
+
+
+    /*
+     * =========================
+     * CURRENT FILTER STATE
+     * =========================
+     */
+
+    let currentSearch = "";
+
+
+    /*
+     * =========================
+     * RENDER GALLERY
+     * =========================
+     */
+
+    function renderGallery() {
+
+      const gallery =
+        document.getElementById("gallery");
+
+      const noResults =
+        document.getElementById("noResults");
+
+
+      const type =
+        document.getElementById("typeFilter").value;
+
+
+      const model =
+        document.getElementById("modelFilter").value;
+
+
+      /*
+       * Filter the tack list.
+       */
+
+      const filteredItems =
+        tackItems.filter(item => {
+
+          /*
+           * Tack type filter
+           */
+
+          if (
+            type !== "all" &&
+            item.type !== type
+          ) {
+            return false;
+          }
+
+
+          /*
+           * Mod filter
+           */
+
+          const mod =
+            document.getElementById("modFilter").value;
+
+          if (
+            mod !== "all" &&
+            item.mod !== mod
+          ) {
+            return false;
+          }
+
+
+          /*
+           * Search
+           *
+           * Search name, type and mod.
+           */
+
+          if (currentSearch !== "") {
+
+            const searchableText =
+              (
+                item.name +
+                " " +
+                item.type +
+                " " +
+                item.mod
+              ).toLowerCase();
+
+
+            if (
+              !searchableText.includes(
+                currentSearch
+              )
+            ) {
+              return false;
+            }
+          }
+
+
+          return true;
+
+        });
+
+
+      /*
+       * Nothing matched.
+       */
+
+      if (filteredItems.length === 0) {
+
+        gallery.innerHTML = "";
+
+        noResults.style.display = "block";
+
+        return;
+      }
+
+
+      noResults.style.display = "none";
+
+
+      /*
+       * Build the gallery.
+       */
+
+      gallery.innerHTML =
+        filteredItems.map(item => {
+
+
+          /*
+           * ALL MODELS
+           *
+           * Show all three images.
+           */
+
+          if (model === "all") {
+
+            return `
+              <div class="item">
+
+                <div class="images">
+
+                  <img
+                    src="${item.images.light}"
+                    alt="${item.name} - Light"
+                  >
+
+                  <img
+                    src="${item.images.medium}"
+                    alt="${item.name} - Medium"
+                  >
+
+                  <img
+                    src="${item.images.dark}"
+                    alt="${item.name} - Dark"
+                  >
+
+                </div>
+
+                <div class="name">
+                  ${item.name}
+                </div>
+
+              </div>
+            `;
+          }
+
+
+          /*
+           * SPECIFIC MODEL
+           *
+           * Show only one image.
+           */
+
+          return `
+            <div class="item">
+
+              <div class="images single">
+
+                <img
+                  src="${item.images[model]}"
+                  alt="${item.name} - ${model}"
+                >
+
+              </div>
+
+              <div class="name">
+                ${item.name}
+              </div>
+
+            </div>
+          `;
+
+        }).join("");
+
+    }
+
+
+    /*
+     * =========================
+     * FILTER EVENTS
+     * =========================
+     */
+
+    document
+      .getElementById("typeFilter")
+      .addEventListener(
+        "change",
+        renderGallery
+      );
+
+
+    document
+      .getElementById("modelFilter")
+      .addEventListener(
+        "change",
+        renderGallery
+      );
+
+
+    document
+      .getElementById("modFilter")
+      .addEventListener(
+        "change",
+        renderGallery
+      );
+
+
+    /*
+     * =========================
+     * SEARCH BUTTON
+     * =========================
+     */
+
+    document
+      .getElementById("searchButton")
+      .addEventListener(
+        "click",
+        () => {
+
+          currentSearch =
+            document
+              .getElementById("searchInput")
+              .value
+              .trim()
+              .toLowerCase();
+
+          renderGallery();
+
+        }
+      );
+
+
+    /*
+     * =========================
+     * ENTER KEY SEARCH
+     * =========================
+     */
+
+    document
+      .getElementById("searchInput")
+      .addEventListener(
+        "keydown",
+        event => {
+
+          if (event.key === "Enter") {
+
+            document
+              .getElementById("searchButton")
+              .click();
+
+          }
+
+        }
+      );
+
+
+    /*
+     * =========================
+     * INITIAL RENDER
+     * =========================
+     */
+
+    renderGallery();
+
+
+    /*
+     * =========================
+     * GITBOOK WEBFRAME
+     * =========================
      */
 
     window.parent.postMessage(
@@ -201,10 +685,6 @@
       "*"
     );
 
-
-    /*
-     * Tell GitBook how large the WebFrame should be.
-     */
 
     window.parent.postMessage(
       {
@@ -222,4 +702,5 @@
   </script>
 
 </body>
+
 </html>
