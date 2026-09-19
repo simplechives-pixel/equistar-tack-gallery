@@ -55,11 +55,6 @@
       gap: 4px;
     }
 
-    .images.single {
-      grid-template-columns:
-        minmax(0, 1fr);
-    }
-
     .images img {
       display: block;
 
@@ -85,30 +80,6 @@
 
       font-weight: 600;
     }
-
-    .empty {
-      grid-column: 1 / -1;
-
-      text-align: center;
-
-      padding: 30px 10px;
-
-      opacity: 0.65;
-    }
-
-    @media (max-width: 700px) {
-      #gallery {
-        grid-template-columns:
-          repeat(2, minmax(0, 1fr));
-      }
-    }
-
-    @media (max-width: 450px) {
-      #gallery {
-        grid-template-columns:
-          minmax(0, 1fr);
-      }
-    }
   </style>
 </head>
 
@@ -117,130 +88,81 @@
   <div id="gallery"></div>
 
   <script>
-    const gallery = document.getElementById("gallery");
+    const imageUrl =
+      "https://file.garden/aNzd9GYmaWI-Oky9/360_F_65473506_rjydmo8sf1stj5KiJhukACvwVHNWxQAf.jpg";
 
-    function escapeHtml(value) {
-      return String(value)
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
-    }
-
-    function render(data) {
-      const items = data?.items ?? [];
-      const model = data?.model ?? "all";
-
-      if (items.length === 0) {
-        gallery.innerHTML =
-          '<div class="empty">No tack matches your filters.</div>';
-
-        resize();
-
-        return;
-      }
-
-      gallery.innerHTML = items
-        .map((item) => {
-
-          const name = escapeHtml(item.name);
-
-          if (model === "all") {
-            return `
-              <div class="item">
-
-                <div class="images">
-
-                  <img
-                    src="${item.images.light}"
-                    alt="${name} - Light"
-                  >
-
-                  <img
-                    src="${item.images.medium}"
-                    alt="${name} - Medium"
-                  >
-
-                  <img
-                    src="${item.images.dark}"
-                    alt="${name} - Dark"
-                  >
-
-                </div>
-
-                <div class="name">
-                  ${name}
-                </div>
-
-              </div>
-            `;
-          }
-
-          return `
-            <div class="item">
-
-              <div class="images single">
-
-                <img
-                  src="${item.images[model]}"
-                  alt="${name}"
-                >
-
-              </div>
-
-              <div class="name">
-                ${name}
-              </div>
-
-            </div>
-          `;
-        })
-        .join("");
-
-      resize();
-    }
-
-    function resize() {
-      window.parent.postMessage(
-        {
-          action: {
-            action: "@webframe.resize",
-            maxHeight: 1200
-          }
-        },
-        "*"
-      );
-    }
-
-    window.addEventListener("message", (event) => {
-
-      const state = event.data?.state;
-
-      if (!state) {
-        return;
-      }
-
-      let items = [];
-
-      if (typeof state.items === "string") {
-        try {
-          items = JSON.parse(state.items);
-        } catch {
-          items = [];
+    const items = [
+      {
+        name: "Lavender Bridle",
+        images: {
+          light: imageUrl,
+          medium: imageUrl,
+          dark: imageUrl
+        }
+      },
+      {
+        name: "Rose Saddle",
+        images: {
+          light: imageUrl,
+          medium: imageUrl,
+          dark: imageUrl
+        }
+      },
+      {
+        name: "Black Blanket",
+        images: {
+          light: imageUrl,
+          medium: imageUrl,
+          dark: imageUrl
         }
       }
+    ];
 
-      render({
-        items: items,
-        model: state.model ?? "all"
-      });
-    });
+    document.getElementById("gallery").innerHTML = items
+      .map(item => `
+        <div class="item">
+
+          <div class="images">
+
+            <img
+              src="${item.images.light}"
+              alt="${item.name} - Light"
+            >
+
+            <img
+              src="${item.images.medium}"
+              alt="${item.name} - Medium"
+            >
+
+            <img
+              src="${item.images.dark}"
+              alt="${item.name} - Dark"
+            >
+
+          </div>
+
+          <div class="name">
+            ${item.name}
+          </div>
+
+        </div>
+      `)
+      .join("");
 
     window.parent.postMessage(
       {
         action: {
           action: "@webframe.ready"
+        }
+      },
+      "*"
+    );
+
+    window.parent.postMessage(
+      {
+        action: {
+          action: "@webframe.resize",
+          maxHeight: 1200
         }
       },
       "*"
