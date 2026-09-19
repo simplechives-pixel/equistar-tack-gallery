@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,100 +10,70 @@
       box-sizing: border-box;
     }
 
-    html,
     body {
       margin: 0;
-      padding: 0;
-      width: 100%;
-    }
-
-    body {
-      font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        sans-serif;
-      color: #1f1f1f;
-      background: transparent;
+      padding: 16px;
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #222222;
     }
 
     #controls {
-      width: 100%;
       display: flex;
-      align-items: center;
       justify-content: space-between;
-      gap: 16px;
+      align-items: flex-start;
+      gap: 20px;
       margin-bottom: 20px;
     }
 
     #filters {
       display: flex;
-      align-items: center;
+      flex-wrap: wrap;
       gap: 8px;
-      min-width: 0;
+      align-items: center;
     }
 
-    #searchArea {
+    #search {
       display: flex;
-      align-items: center;
       gap: 8px;
       flex-shrink: 0;
     }
 
     select,
-    input {
-      height: 36px;
-      padding: 0 10px;
-      border: 1px solid #d6d6d6;
+    input,
+    button {
+      font: inherit;
+      padding: 8px 10px;
+      border: 1px solid #cccccc;
       border-radius: 6px;
-      background: white;
-      color: #1f1f1f;
-      font-family: inherit;
-      font-size: 14px;
-    }
-
-    select {
-      min-width: 125px;
+      background: #ffffff;
     }
 
     input {
-      width: 190px;
+      width: 220px;
     }
 
     button {
-      height: 36px;
-      padding: 0 14px;
-      border: none;
-      border-radius: 6px;
-      background: #1f1f1f;
-      color: white;
-      font-family: inherit;
-      font-size: 14px;
-      font-weight: 600;
       cursor: pointer;
-    }
-
-    button:hover {
-      opacity: 0.85;
     }
 
     #gallery {
       width: 100%;
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 24px 20px;
+      gap: 16px;
     }
 
     .item {
-      width: 100%;
       min-width: 0;
+      text-align: center;
     }
 
     .images {
       width: 100%;
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 5px;
+      gap: 4px;
     }
 
     .images.single {
@@ -119,37 +88,18 @@
       border-radius: 6px;
     }
 
-    .name {
-      width: 100%;
+    .item-name {
       margin-top: 8px;
-      text-align: center;
-      font-size: 14px;
-      line-height: 1.3;
       font-weight: 600;
     }
 
-    #noResults {
-      display: none;
-      width: 100%;
-      padding: 40px 20px;
+    .no-results {
+      grid-column: 1 / -1;
       text-align: center;
-      color: #777;
-      font-size: 15px;
+      padding: 30px;
     }
 
     @media (max-width: 850px) {
-      #controls {
-        flex-wrap: wrap;
-      }
-
-      #filters {
-        flex-wrap: wrap;
-      }
-
-      #searchArea {
-        margin-left: auto;
-      }
-
       #gallery {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
@@ -158,25 +108,13 @@
     @media (max-width: 600px) {
       #controls {
         flex-direction: column;
-        align-items: stretch;
       }
 
-      #filters {
+      #search {
         width: 100%;
-        flex-wrap: wrap;
       }
 
-      #filters select {
-        flex: 1;
-        min-width: 0;
-      }
-
-      #searchArea {
-        width: 100%;
-        margin-left: 0;
-      }
-
-      #searchArea input {
+      input {
         flex: 1;
         width: auto;
       }
@@ -190,22 +128,19 @@
       #filters {
         flex-direction: column;
         align-items: stretch;
+        width: 100%;
       }
 
       #filters select {
         width: 100%;
       }
 
-      #searchArea {
-        flex-wrap: wrap;
+      #search {
+        flex-direction: column;
       }
 
-      #searchArea input {
-        width: 100%;
-        flex: none;
-      }
-
-      #searchArea button {
+      #search input,
+      #search button {
         width: 100%;
       }
     }
@@ -215,9 +150,7 @@
 <body>
 
   <div id="controls">
-
     <div id="filters">
-
       <select id="typeFilter">
         <option value="all">All Tack</option>
         <option value="blanket">Blankets</option>
@@ -227,7 +160,7 @@
         <option value="flymask">Flymasks</option>
         <option value="girth-strap">Girth Straps</option>
         <option value="halter">Halters</option>
-        <option value="horse-armor">Horse Armor</option>
+        <option value="horse-armor">Horse Armors</option>
         <option value="leg-wrap">Leg Wraps</option>
         <option value="saddle-bag">Saddle Bags</option>
         <option value="saddle">Saddles</option>
@@ -250,385 +183,259 @@
         <option value="tres">Tre's Tack</option>
         <option value="bageks">Bageks</option>
       </select>
-
     </div>
 
-    <div id="searchArea">
-
+    <div id="search">
       <input
-        id="searchInput"
         type="text"
+        id="searchInput"
         placeholder="Search tack..."
       >
-
-      <button id="searchButton">
-        Search
-      </button>
-
+      <button id="searchButton">Search</button>
     </div>
-
   </div>
 
   <div id="gallery"></div>
 
-  <div id="noResults">
-    No tack matches your search.
-  </div>
-
   <script src="tack-data.js"></script>
 
   <script>
+    const typeFilter = document.getElementById("typeFilter");
+    const styleFilter = document.getElementById("styleFilter");
+    const modelFilter = document.getElementById("modelFilter");
+    const modFilter = document.getElementById("modFilter");
+    const searchInput = document.getElementById("searchInput");
+    const searchButton = document.getElementById("searchButton");
+    const gallery = document.getElementById("gallery");
 
     let currentSearch = "";
 
     const stylesByType = {
       saddle: [
-        {
-          value: "adventure",
-          label: "Adventure"
-        },
-        {
-          value: "english",
-          label: "English"
-        },
-        {
-          value: "liberty-bareback",
-          label: "Liberty/Bareback"
-        },
-        {
-          value: "specialty",
-          label: "Specialty"
-        },
-        {
-          value: "western",
-          label: "Western"
-        }
+        { value: "adventure", label: "Adventure" },
+        { value: "english", label: "English" },
+        { value: "liberty-bareback", label: "Liberty/Bareback" },
+        { value: "specialty", label: "Specialty" },
+        { value: "western", label: "Western" }
+      ],
+
+      bridle: [
+        { value: "adventure", label: "Adventure" },
+        { value: "bitless", label: "Bitless" },
+        { value: "cloth", label: "Cloth" },
+        { value: "english", label: "English" },
+        { value: "liberty-bareback", label: "Liberty/Bareback" },
+        { value: "specialty", label: "Specialty" },
+        { value: "western", label: "Western" }
       ],
 
       blanket: [
-        {
-          value: "adventure",
-          label: "Adventure"
-        },
-        {
-          value: "english",
-          label: "English"
-        },
-        {
-          value: "english-quarter-sheets",
-          label: "English Quarter Sheets"
-        },
-        {
-          value: "liberty-bareback",
-          label: "Liberty/Bareback"
-        },
-        {
-          value: "racing",
-          label: "Racing"
-        },
-        {
-          value: "western",
-          label: "Western"
-        }
+        { value: "adventure", label: "Adventure" },
+        { value: "english", label: "English" },
+        { value: "english-quarter-sheets", label: "English Quarter Sheets" },
+        { value: "liberty-bareback", label: "Liberty/Bareback" },
+        { value: "racing", label: "Racing" },
+        { value: "western", label: "Western" }
+      ],
+
+      "leg-wrap": [
+        { value: "adventure", label: "Adventure" },
+        { value: "english", label: "English" },
+        { value: "tendon-boots", label: "Tendon Boots" },
+        { value: "travel-boots", label: "Travel Boots" },
+        { value: "western", label: "Western" }
+      ],
+
+      "breast-collar": [
+        { value: "adventure", label: "Adventure" },
+        { value: "cloth", label: "Cloth" },
+        { value: "english", label: "English" },
+        { value: "western", label: "Western" },
+        { value: "working-harnesses", label: "Working Harnesses" }
+      ],
+
+      "girth-strap": [
+        { value: "adventure", label: "Adventure" },
+        { value: "cloth", label: "Cloth" },
+        { value: "english", label: "English" },
+        { value: "liberty-bareback", label: "Liberty/Bareback" },
+        { value: "western", label: "Western" }
+      ],
+
+      "turnout-blanket": [
+        { value: "flysheets", label: "Flysheets" },
+        { value: "pasture-blankets", label: "Pasture Blankets" },
+        { value: "rainsheets", label: "Rainsheets" }
       ]
     };
 
-    function updateStyleFilter() {
-      const type =
-        document
-          .getElementById("typeFilter")
-          .value;
-
-      const styleFilter =
-        document.getElementById("styleFilter");
-
-      const styles =
-        stylesByType[type];
-
-      if (!styles) {
-        styleFilter.style.display = "none";
-        styleFilter.innerHTML =
-          '<option value="all">All Styles</option>';
-        styleFilter.value = "all";
-        return;
-      }
-
-      styleFilter.style.display = "";
-
-      styleFilter.innerHTML =
-        '<option value="all">All Styles</option>' +
-        styles
-          .map(style => `
-            <option value="${style.value}">
-              ${style.label}
-            </option>
-          `)
-          .join("");
-
-      styleFilter.value = "all";
-    }
-
     function resizeWebFrame() {
-      const width =
-        document.documentElement.scrollWidth;
-
-      const height =
-        document.documentElement.scrollHeight;
-
-      if (
-        width <= 0 ||
-        height <= 0
-      ) {
+      if (window.parent === window) {
         return;
       }
 
-      const aspectRatio =
-        width / height;
+      const height = document.documentElement.scrollHeight;
 
       window.parent.postMessage(
         {
-          action: {
-            action: "@webframe.resize",
-            aspectRatio: aspectRatio,
-            maxHeight: Math.max(height, 200)
-          }
+          type: "@webframe.resize",
+          height: height
         },
         "*"
       );
     }
 
+    function updateStyleFilter() {
+      const selectedType = typeFilter.value;
+      const styles = stylesByType[selectedType] || [];
+
+      styleFilter.innerHTML = "";
+
+      if (styles.length === 0) {
+        styleFilter.style.display = "none";
+        styleFilter.value = "all";
+        return;
+      }
+
+      const allOption = document.createElement("option");
+      allOption.value = "all";
+      allOption.textContent = "All Styles";
+      styleFilter.appendChild(allOption);
+
+      styles.forEach(style => {
+        const option = document.createElement("option");
+        option.value = style.value;
+        option.textContent = style.label;
+        styleFilter.appendChild(option);
+      });
+
+      styleFilter.value = "all";
+      styleFilter.style.display = "";
+    }
+
     function renderGallery() {
-      const gallery =
-        document.getElementById("gallery");
+      const selectedType = typeFilter.value;
+      const selectedStyle = styleFilter.value;
+      const selectedModel = modelFilter.value;
+      const selectedMod = modFilter.value;
 
-      const noResults =
-        document.getElementById("noResults");
+      const filteredItems = tackItems.filter(item => {
+        const matchesType =
+          selectedType === "all" ||
+          item.type === selectedType;
 
-      const type =
-        document
-          .getElementById("typeFilter")
-          .value;
+        const matchesStyle =
+          selectedStyle === "all" ||
+          item.style === selectedStyle;
 
-      const style =
-        document
-          .getElementById("styleFilter")
-          .value;
+        const matchesModel =
+          selectedModel === "all" ||
+          item.images[selectedModel];
 
-      const model =
-        document
-          .getElementById("modelFilter")
-          .value;
+        const matchesMod =
+          selectedMod === "all" ||
+          item.mod === selectedMod;
 
-      const mod =
-        document
-          .getElementById("modFilter")
-          .value;
+        const searchText = currentSearch.toLowerCase();
 
-      const filteredItems =
-        tackItems.filter(item => {
+        const matchesSearch =
+          !searchText ||
+          item.name.toLowerCase().includes(searchText) ||
+          item.type.toLowerCase().includes(searchText) ||
+          (item.style || "").toLowerCase().includes(searchText) ||
+          (item.mod || "").toLowerCase().includes(searchText);
 
-          if (
-            type !== "all" &&
-            item.type !== type
-          ) {
-            return false;
-          }
+        return (
+          matchesType &&
+          matchesStyle &&
+          matchesModel &&
+          matchesMod &&
+          matchesSearch
+        );
+      });
 
-          if (
-            style !== "all" &&
-            item.style !== style
-          ) {
-            return false;
-          }
+      gallery.innerHTML = "";
 
-          if (
-            mod !== "all" &&
-            item.mod !== mod
-          ) {
-            return false;
-          }
-
-          if (
-            currentSearch !== ""
-          ) {
-            const searchableText =
-              (
-                item.name +
-                " " +
-                item.type +
-                " " +
-                (item.style || "") +
-                " " +
-                item.mod
-              ).toLowerCase();
-
-            if (
-              !searchableText.includes(
-                currentSearch
-              )
-            ) {
-              return false;
-            }
-          }
-
-          return true;
-        });
-
-      if (
-        filteredItems.length === 0
-      ) {
-        gallery.innerHTML = "";
-        noResults.style.display = "block";
+      if (filteredItems.length === 0) {
+        const noResults = document.createElement("div");
+        noResults.className = "no-results";
+        noResults.textContent = "No tack found.";
+        gallery.appendChild(noResults);
         resizeWebFrame();
         return;
       }
 
-      noResults.style.display = "none";
+      filteredItems.forEach(item => {
+        const itemElement = document.createElement("div");
+        itemElement.className = "item";
 
-      gallery.innerHTML =
-        filteredItems
-          .map(item => {
+        const imagesElement = document.createElement("div");
+        imagesElement.className = "images";
 
-            if (
-              model === "all"
-            ) {
-              return `
-                <div class="item">
-                  <div class="images">
-                    <img
-                      src="${item.images.light}"
-                      alt="${item.name} - Light"
-                    >
-                    <img
-                      src="${item.images.medium}"
-                      alt="${item.name} - Medium"
-                    >
-                    <img
-                      src="${item.images.dark}"
-                      alt="${item.name} - Dark"
-                    >
-                  </div>
+        if (selectedModel !== "all") {
+          imagesElement.classList.add("single");
 
-                  <div class="name">
-                    ${item.name}
-                  </div>
-                </div>
-              `;
-            }
+          const image = document.createElement("img");
+          image.src = item.images[selectedModel];
+          image.alt = `${item.name} - ${selectedModel} model`;
 
-            return `
-              <div class="item">
-                <div class="images single">
-                  <img
-                    src="${item.images[model]}"
-                    alt="${item.name} - ${model}"
-                  >
-                </div>
+          imagesElement.appendChild(image);
+        } else {
+          ["light", "medium", "dark"].forEach(model => {
+            const image = document.createElement("img");
+            image.src = item.images[model];
+            image.alt = `${item.name} - ${model} model`;
 
-                <div class="name">
-                  ${item.name}
-                </div>
-              </div>
-            `;
-          })
-          .join("");
+            imagesElement.appendChild(image);
+          });
+        }
 
-      requestAnimationFrame(
-        resizeWebFrame
-      );
+        const nameElement = document.createElement("div");
+        nameElement.className = "item-name";
+        nameElement.textContent = item.name;
+
+        itemElement.appendChild(imagesElement);
+        itemElement.appendChild(nameElement);
+        gallery.appendChild(itemElement);
+      });
+
+      resizeWebFrame();
     }
 
-    document
-      .getElementById("typeFilter")
-      .addEventListener(
-        "change",
-        () => {
-          updateStyleFilter();
-          renderGallery();
-        }
-      );
+    typeFilter.addEventListener("change", () => {
+      updateStyleFilter();
+      renderGallery();
+    });
 
-    document
-      .getElementById("styleFilter")
-      .addEventListener(
-        "change",
-        renderGallery
-      );
+    styleFilter.addEventListener("change", () => {
+      renderGallery();
+    });
 
-    document
-      .getElementById("modelFilter")
-      .addEventListener(
-        "change",
-        renderGallery
-      );
+    modelFilter.addEventListener("change", () => {
+      renderGallery();
+    });
 
-    document
-      .getElementById("modFilter")
-      .addEventListener(
-        "change",
-        renderGallery
-      );
+    modFilter.addEventListener("change", () => {
+      renderGallery();
+    });
 
-    document
-      .getElementById("searchButton")
-      .addEventListener(
-        "click",
-        () => {
+    searchButton.addEventListener("click", () => {
+      currentSearch = searchInput.value.trim();
+      renderGallery();
+    });
 
-          currentSearch =
-            document
-              .getElementById("searchInput")
-              .value
-              .trim()
-              .toLowerCase();
+    window.addEventListener("resize", resizeWebFrame);
 
-          renderGallery();
-        }
-      );
+    const resizeObserver = new ResizeObserver(() => {
+      resizeWebFrame();
+    });
 
-    document
-      .getElementById("searchInput")
-      .addEventListener(
-        "keydown",
-        event => {
-
-          if (
-            event.key === "Enter"
-          ) {
-            document
-              .getElementById("searchButton")
-              .click();
-          }
-
-        }
-      );
-
-    const resizeObserver =
-      new ResizeObserver(
-        () => {
-          resizeWebFrame();
-        }
-      );
-
-    resizeObserver.observe(
-      document.body
-    );
+    resizeObserver.observe(document.body);
 
     updateStyleFilter();
-
     renderGallery();
-
-    window.parent.postMessage(
-      {
-        action: {
-          action: "@webframe.ready"
-        }
-      },
-      "*"
-    );
-
+    resizeWebFrame();
   </script>
 
 </body>
-
 </html>
