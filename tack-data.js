@@ -567,7 +567,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/mint-tres-flymask-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/tres_mint-flymask-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/fly-masks/dark/tres_mint-flymask-dark.png"
     }
   },
 
