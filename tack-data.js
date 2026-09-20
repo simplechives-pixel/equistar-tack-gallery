@@ -411,7 +411,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/wineberry-bageks-flymask-light.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/winberry-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
