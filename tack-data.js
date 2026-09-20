@@ -713,4 +713,332 @@ const tackItems = [
       dark: ""
     }
   }
+  {
+    name: "Black Halter",
+    type: "halter",
+    mod: "swem",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Blue Halter",
+    type: "halter",
+    mod: "swem",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Brown Halter",
+    type: "halter",
+    mod: "swem",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Cyan Halter",
+    type: "halter",
+    mod: "swem",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Gray Halter",
+    type: "halter",
+    mod: "swem",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Green Halter",
+    type: "halter",
+    mod: "swem",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Light Blue Halter",
+    type: "halter",
+    mod: "swem",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Light Gray Halter",
+    type: "halter",
+    mod: "swem",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Lime Halter",
+    type: "halter",
+    mod: "swem",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Magenta Halter",
+    type: "halter",
+    mod: "swem",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Orange Halter",
+    type: "halter",
+    mod: "swem",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Pink Halter",
+    type: "halter",
+    mod: "swem",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Purple Halter",
+    type: "halter",
+    mod: "swem",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Red Halter",
+    type: "halter",
+    mod: "swem",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "White Halter",
+    type: "halter",
+    mod: "swem",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Yellow Halter",
+    type: "halter",
+    mod: "swem",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+  {
+    name: "Arctic Halter",
+    type: "halter",
+    mod: "tres",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Creamsicle Halter",
+    type: "halter",
+    mod: "tres",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Dandelion Halter",
+    type: "halter",
+    mod: "tres",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Emerald Halter",
+    type: "halter",
+    mod: "tres",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Fuchsia Halter",
+    type: "halter",
+    mod: "tres",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Lavender Halter",
+    type: "halter",
+    mod: "tres",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Mint Halter",
+    type: "halter",
+    mod: "tres",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Navy Halter",
+    type: "halter",
+    mod: "tres",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Orchid Halter",
+    type: "halter",
+    mod: "tres",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Ruby Halter",
+    type: "halter",
+    mod: "tres",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Salmon Halter",
+    type: "halter",
+    mod: "tres",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Rose Halter",
+    type: "halter",
+    mod: "tres",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Sunshine Halter",
+    type: "halter",
+    mod: "tres",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Topaz Halter",
+    type: "halter",
+    mod: "tres",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  }
 ];
