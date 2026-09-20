@@ -93,6 +93,12 @@
       aspect-ratio: 4 / 3;
       object-fit: cover;
       border-radius: 6px;
+      cursor: pointer;
+      transition: opacity 0.15s ease;
+    }
+
+    .images img:hover {
+      opacity: 0.8;
     }
 
     .item-name {
@@ -111,6 +117,66 @@
       grid-column: 1 / -1;
       text-align: center;
       padding: 30px;
+    }
+
+    #lightbox {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      background: rgba(0, 0, 0, 0.85);
+    }
+
+    #lightbox.open {
+      display: flex;
+    }
+
+    #lightboxImage {
+      display: block;
+      max-width: 100%;
+      max-height: calc(100vh - 100px);
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+
+    #lightboxClose {
+      position: absolute;
+      top: 16px;
+      right: 20px;
+      width: 44px;
+      height: 44px;
+      padding: 0;
+      border: none;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.6);
+      color: #ffffff;
+      font-size: 30px;
+      line-height: 44px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    #lightboxClose:hover {
+      background: rgba(0, 0, 0, 0.8);
+    }
+
+    #lightboxInfo {
+      position: absolute;
+      left: 50%;
+      bottom: 16px;
+      transform: translateX(-50%);
+      padding: 7px 12px;
+      border-radius: 6px;
+      background: rgba(0, 0, 0, 0.65);
+      color: #ffffff;
+      font-size: 14px;
+      text-align: center;
+      white-space: nowrap;
     }
 
     @media (max-width: 850px) {
@@ -136,6 +202,14 @@
       #gallery {
         grid-template-columns: minmax(0, 1fr);
       }
+
+      #lightbox {
+        padding: 20px;
+      }
+
+      #lightboxImage {
+        max-height: calc(100vh - 80px);
+      }
     }
 
     @media (max-width: 400px) {
@@ -156,6 +230,12 @@
       #search input,
       #search button {
         width: 100%;
+      }
+
+      #lightboxInfo {
+        max-width: calc(100% - 30px);
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
     }
   </style>
@@ -212,6 +292,12 @@
 
   <div id="gallery"></div>
 
+  <div id="lightbox">
+    <button id="lightboxClose" aria-label="Close">×</button>
+    <img id="lightboxImage" src="" alt="">
+    <div id="lightboxInfo"></div>
+  </div>
+
   <script src="tack-data.js"></script>
 
   <script>
@@ -223,13 +309,18 @@
     const searchButton = document.getElementById("searchButton");
     const gallery = document.getElementById("gallery");
 
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImage = document.getElementById("lightboxImage");
+    const lightboxClose = document.getElementById("lightboxClose");
+    const lightboxInfo = document.getElementById("lightboxInfo");
+
     let currentSearch = "";
 
-const modNames = {
-  bageks: "Bageks Equiney Addon",
-  swem: "SWEM",
-  tres: "Tre's Tack Shop"
-};
+    const modNames = {
+      bageks: "Bageks Equiney Addon",
+      swem: "SWEM",
+      tres: "Tre's Tack Shop"
+    };
 
     const stylesByType = {
       saddle: [
@@ -334,6 +425,26 @@ const modNames = {
       styleFilter.style.display = "";
     }
 
+    function openLightbox(src, alt, model) {
+      if (!src) {
+        return;
+      }
+
+      lightboxImage.src = src;
+      lightboxImage.alt = alt;
+      lightboxInfo.textContent = `${alt} — ${model} Model`;
+      lightbox.classList.add("open");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove("open");
+      lightboxImage.src = "";
+      lightboxImage.alt = "";
+      lightboxInfo.textContent = "";
+      document.body.style.overflow = "";
+    }
+
     function renderGallery() {
       const selectedType = typeFilter.value;
       const selectedStyle = styleFilter.value;
@@ -403,12 +514,32 @@ const modNames = {
           image.src = item.images[selectedModel];
           image.alt = `${item.name} - ${selectedModel} model`;
 
+          if (item.images[selectedModel]) {
+            image.addEventListener("click", () => {
+              openLightbox(
+                item.images[selectedModel],
+                item.name,
+                selectedModel.charAt(0).toUpperCase() + selectedModel.slice(1)
+              );
+            });
+          }
+
           imagesElement.appendChild(image);
         } else {
           ["light", "medium", "dark"].forEach(model => {
             const image = document.createElement("img");
             image.src = item.images[model];
             image.alt = `${item.name} - ${model} model`;
+
+            if (item.images[model]) {
+              image.addEventListener("click", () => {
+                openLightbox(
+                  item.images[model],
+                  item.name,
+                  model.charAt(0).toUpperCase() + model.slice(1)
+                );
+              });
+            }
 
             imagesElement.appendChild(image);
           });
@@ -451,6 +582,23 @@ const modNames = {
     searchButton.addEventListener("click", () => {
       currentSearch = searchInput.value.trim();
       renderGallery();
+    });
+
+    lightboxClose.addEventListener("click", event => {
+      event.stopPropagation();
+      closeLightbox();
+    });
+
+    lightbox.addEventListener("click", event => {
+      if (event.target === lightbox) {
+        closeLightbox();
+      }
+    });
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape" && lightbox.classList.contains("open")) {
+        closeLightbox();
+      }
     });
 
     window.addEventListener("resize", resizeWebFrame);
