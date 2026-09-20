@@ -4,7 +4,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_Sm73YnIO2u.png",
       medium: "",
       dark: ""
     }
@@ -15,7 +15,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_pbhXCW1RTH.png",
       medium: "",
       dark: ""
     }
@@ -477,7 +477,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_yd5zSGOgOX.png",
       medium: "",
       dark: ""
     }
@@ -510,7 +510,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_tdpsvwrVsg.png",
       medium: "",
       dark: ""
     }
@@ -532,7 +532,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_7Y22SyujSI.png",
       medium: "",
       dark: ""
     }
@@ -587,7 +587,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_il0tickCZ5.png",
       medium: "",
       dark: ""
     }
