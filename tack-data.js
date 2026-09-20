@@ -1051,5 +1051,818 @@ const tackItems = [
       medium: "",
       dark: ""
     }
-  }
+  },
+  {
+    name: "Classic Black Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Blood Orange Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Blush Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Burnt Sienna Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Carmine Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Charcoal Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Colbat Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Coral Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Cosmos Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Dark Umber Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Electric Blue Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Firebrick Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Forest Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Grape Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Honey Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Jade Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Lavender Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Latte Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Merlot Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Midnight Blue Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Mint Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Moss Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Mulberry Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Navy Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Pirate Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Plum Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Rosewood Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Rosey Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Sage Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Sherbert Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Sunlow Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Teal Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Traffic Cone Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Ultramarine Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic White Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Wineberry Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Winter Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Black Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Blood Orange Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Blush Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Burnt Sienna Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Carmine Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Charcoal Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Colbat Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Coral Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Cosmos Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Dark Umber Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Electric Blue Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Firebrick Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Forest Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Grape Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Honey Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Jade Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Lavender Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Latte Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Merlot Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Midnight Blue Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Mint Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Moss Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Mulberry Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Navy Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Pirate Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Plum Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Rosewood Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Rosey Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Sage Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Sherbert Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Sunlow Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Teal Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Traffic Cone Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Ultramarine Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy White Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Wineberry Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Classic Fluffy Winter Halter",
+    type: "halter",
+    mod: "bageks",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  }, 
 ];
