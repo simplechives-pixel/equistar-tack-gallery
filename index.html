@@ -100,6 +100,13 @@
       font-weight: 600;
     }
 
+    .item-mod {
+      margin-top: 3px;
+      font-size: 0.85em;
+      font-style: italic;
+      color: #666666;
+    }
+
     .no-results {
       grid-column: 1 / -1;
       text-align: center;
@@ -189,6 +196,7 @@
         <option value="all">All Mods</option>
         <option value="tres">Tre's Tack</option>
         <option value="bageks">Bageks</option>
+        <option value="swem">SWEM</option>
       </select>
     </div>
 
@@ -216,6 +224,11 @@
     const gallery = document.getElementById("gallery");
 
     let currentSearch = "";
+
+    const modNames = {
+      tres: "Tre's Tack Shop",
+      bageks: "Bageks Equiney Addon"
+    };
 
     const stylesByType = {
       saddle: [
@@ -404,8 +417,13 @@
         nameElement.className = "item-name";
         nameElement.textContent = item.name;
 
+        const modElement = document.createElement("div");
+        modElement.className = "item-mod";
+        modElement.textContent = modNames[item.mod] || item.mod;
+
         itemElement.appendChild(imagesElement);
         itemElement.appendChild(nameElement);
+        itemElement.appendChild(modElement);
         gallery.appendChild(itemElement);
       });
 
