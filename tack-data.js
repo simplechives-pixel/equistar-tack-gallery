@@ -893,7 +893,7 @@ const tackItems = [
     type: "halter",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_arctic-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -904,7 +904,7 @@ const tackItems = [
     type: "halter",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_creamsicle-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -915,7 +915,7 @@ const tackItems = [
     type: "halter",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_dandelion-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -926,7 +926,7 @@ const tackItems = [
     type: "halter",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_emerald-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -937,7 +937,7 @@ const tackItems = [
     type: "halter",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_fuchsia-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -948,7 +948,7 @@ const tackItems = [
     type: "halter",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_lavender-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -959,7 +959,7 @@ const tackItems = [
     type: "halter",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_mint-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -970,7 +970,7 @@ const tackItems = [
     type: "halter",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_navy-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -981,7 +981,7 @@ const tackItems = [
     type: "halter",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_orchid-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -992,7 +992,7 @@ const tackItems = [
     type: "halter",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_rose-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -1003,7 +1003,7 @@ const tackItems = [
     type: "halter",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_ruby-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -1014,18 +1014,7 @@ const tackItems = [
     type: "halter",
     mod: "tres",
     images: {
-      light: "",
-      medium: "",
-      dark: ""
-    }
-  },
-
-  {
-    name: "Rose Halter",
-    type: "halter",
-    mod: "tres",
-    images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_salmon-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -1036,7 +1025,7 @@ const tackItems = [
     type: "halter",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_sunshine-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -1047,7 +1036,7 @@ const tackItems = [
     type: "halter",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_topaz-halter-light.png",
       medium: "",
       dark: ""
     }
