@@ -1816,8 +1816,7 @@ const tackItems = [
     type: "halter",
     mod: "bageks",
     images: {
-      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffyultramarine-halter-light.png
-",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffyultramarine-halter-light.png",
       medium: "",
       dark: ""
     }
