@@ -48,7 +48,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/black-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -59,7 +59,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/bloodorange-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -70,7 +70,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/blush-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -81,7 +81,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/burntsienna-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -92,7 +92,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/carmine-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -103,7 +103,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/charcoal-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -114,7 +114,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/colbat-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -125,7 +125,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/coral-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -136,7 +136,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/darkumber-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -147,7 +147,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/electricblue-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -158,7 +158,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/forest-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -169,7 +169,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/grape-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -180,7 +180,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/honey-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -191,7 +191,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/jade-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -202,7 +202,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/lavender-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -213,7 +213,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/latte-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -224,7 +224,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/merlot-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -235,7 +235,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/midnightblue-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -246,7 +246,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/mint-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -257,7 +257,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/moss-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -268,7 +268,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/mulberry-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -279,7 +279,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/navy-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -290,7 +290,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/pirate-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -301,7 +301,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/plum-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -312,7 +312,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/rosewood-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -323,7 +323,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/rosey-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -334,7 +334,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/sage-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -345,7 +345,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/sherbert-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -356,7 +356,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/sunlow-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -367,7 +367,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/teal-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -378,7 +378,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/trafficcone-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -389,7 +389,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/ultramarine-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -400,7 +400,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/white-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -411,7 +411,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/wineberry-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -422,7 +422,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "bageks",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/winter-bageks-flymask-light.png",
       medium: "",
       dark: ""
     }
