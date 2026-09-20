@@ -15,7 +15,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_pbhXCW1RTH.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/black-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -26,7 +26,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_BPDlYpwL8D.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/blue-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -37,7 +37,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_1CDgib2q8E.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/brown-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -433,7 +433,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_egz0vttx0s.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/creamsicle-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -444,7 +444,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_nGBcyfz0Zf.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/cyan-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -455,7 +455,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_EzaFVjk4P0.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/dandelion-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -466,7 +466,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/emerald-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -477,7 +477,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_yd5zSGOgOX.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/fuchsia-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -488,7 +488,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_v1y5R81jXr.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/gray-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -499,7 +499,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/green-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -510,7 +510,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_tdpsvwrVsg.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/lavender-tres-flymask-light.pngg",
       medium: "",
       dark: ""
     }
@@ -521,7 +521,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_gvtRfpI4ow.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/lightblue-tres-flymask-light.pngg",
       medium: "",
       dark: ""
     }
@@ -532,7 +532,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_7Y22SyujSI.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/lightgray-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -543,7 +543,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_KmatxT5Z8g.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/lime-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -554,7 +554,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/magenta-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -565,7 +565,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/mint-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -576,7 +576,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_26Lc722t9c.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/navy-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -587,7 +587,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_il0tickCZ5.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/orange-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -598,7 +598,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_kMt0zMFEbv.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/orchid-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -609,7 +609,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_s04WhRGcC7.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/pink-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -620,7 +620,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/purple-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -631,7 +631,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_yrE7xxZ3EP.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/red-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -642,7 +642,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_Faj0syfbZU.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/rose-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -653,7 +653,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_0sgKFASOw2.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/ruby-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -664,7 +664,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/salmon-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -675,7 +675,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_A9srmoh6RF.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/sunshine-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -686,7 +686,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/topaz-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -697,7 +697,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_S2TNL7sZWU.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/white-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
@@ -708,7 +708,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_vOoVg9g8W3.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/yellow-tres-flymask-light.png",
       medium: "",
       dark: ""
     }
