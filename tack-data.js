@@ -543,7 +543,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_trcTJUEKJy.png",
+      light: "https://file.garden/aNzd9GYmaWI-Oky9/Tack%20Gallery/Fly%20Masks/Light/Photos_KmatxT5Z8g.png",
       medium: "",
       dark: ""
     }
