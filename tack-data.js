@@ -712,7 +712,7 @@ const tackItems = [
       medium: "",
       dark: ""
     }
-  }
+  },
   {
     name: "Black Halter",
     type: "halter",
@@ -978,6 +978,17 @@ const tackItems = [
 
   {
     name: "Orchid Halter",
+    type: "halter",
+    mod: "tres",
+    images: {
+      light: "",
+      medium: "",
+      dark: ""
+    }
+  },
+
+  {
+    name: "Rose Halter",
     type: "halter",
     mod: "tres",
     images: {
