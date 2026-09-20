@@ -718,7 +718,7 @@ const tackItems = [
     type: "halter",
     mod: "swem",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_black-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -729,7 +729,7 @@ const tackItems = [
     type: "halter",
     mod: "swem",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_blue-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -740,7 +740,7 @@ const tackItems = [
     type: "halter",
     mod: "swem",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_brown-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -751,7 +751,7 @@ const tackItems = [
     type: "halter",
     mod: "swem",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_cyan-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -762,7 +762,7 @@ const tackItems = [
     type: "halter",
     mod: "swem",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_gray-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -773,7 +773,7 @@ const tackItems = [
     type: "halter",
     mod: "swem",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_green-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -784,7 +784,7 @@ const tackItems = [
     type: "halter",
     mod: "swem",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_lightblue-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -795,7 +795,7 @@ const tackItems = [
     type: "halter",
     mod: "swem",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_lightgray-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -806,7 +806,7 @@ const tackItems = [
     type: "halter",
     mod: "swem",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_lime-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -817,7 +817,7 @@ const tackItems = [
     type: "halter",
     mod: "swem",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_magenta-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -828,7 +828,7 @@ const tackItems = [
     type: "halter",
     mod: "swem",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_orange-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -839,7 +839,7 @@ const tackItems = [
     type: "halter",
     mod: "swem",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_pink-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -850,7 +850,7 @@ const tackItems = [
     type: "halter",
     mod: "swem",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_purple-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -861,7 +861,7 @@ const tackItems = [
     type: "halter",
     mod: "swem",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_red-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -872,7 +872,7 @@ const tackItems = [
     type: "halter",
     mod: "swem",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_white-halter-light.png",
       medium: "",
       dark: ""
     }
@@ -883,7 +883,7 @@ const tackItems = [
     type: "halter",
     mod: "swem",
     images: {
-      light: "",
+      light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_yellow-halter-light.png",
       medium: "",
       dark: ""
     }
