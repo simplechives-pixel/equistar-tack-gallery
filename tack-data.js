@@ -49,7 +49,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/black-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_black-flymask-med.png",
       dark: ""
     }
   },
@@ -60,7 +60,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/bloodorange-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_bloodorange-flymask-med.png",
       dark: ""
     }
   },
@@ -71,7 +71,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/blush-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_blush-flymask-med.png",
       dark: ""
     }
   },
@@ -82,8 +82,8 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/burntsienna-bageks-flymask-light.png",
-      medium: "",
-      dark: ""
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_burntsienna-flymask-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_carmine-flymask-med.png"
     }
   },
 
@@ -93,7 +93,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/carmine-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_burntsienna-flymask-med.png",
       dark: ""
     }
   },
@@ -104,7 +104,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/charcoal-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_charcoal-flymask-med.png",
       dark: ""
     }
   },
@@ -115,7 +115,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/colbat-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_colbat-flymask-med.png",
       dark: ""
     }
   },
@@ -126,7 +126,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/coral-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_coral-flymask-med.png",
       dark: ""
     }
   },
@@ -137,7 +137,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/darkumber-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_darkumber-flymask-med.png",
       dark: ""
     }
   },
@@ -148,7 +148,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/electricblue-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_electricblue-flymask-med.png",
       dark: ""
     }
   },
@@ -159,7 +159,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/forest-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_forest-flymask-med.png",
       dark: ""
     }
   },
@@ -170,7 +170,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/grape-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_grape-flymask-med.png",
       dark: ""
     }
   },
@@ -181,7 +181,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/honey-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_honey-flymask-med.png",
       dark: ""
     }
   },
@@ -192,7 +192,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/jade-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_jade-flymask-med.png",
       dark: ""
     }
   },
@@ -203,7 +203,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/lavender-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_lavender-flymask-med.png",
       dark: ""
     }
   },
@@ -214,7 +214,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/latte-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_latte-flymask-med.png",
       dark: ""
     }
   },
@@ -225,7 +225,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/merlot-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_merlot-flymask-med.png",
       dark: ""
     }
   },
@@ -236,7 +236,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/midnightblue-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_midnightblue-flymask-med.png",
       dark: ""
     }
   },
@@ -247,7 +247,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/mint-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_mint-flymask-med.png",
       dark: ""
     }
   },
@@ -258,7 +258,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/moss-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_moss-flymask-med.png",
       dark: ""
     }
   },
@@ -269,7 +269,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/mulberry-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_mulberry-flymask-med.png",
       dark: ""
     }
   },
@@ -280,7 +280,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/navy-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_navy-flymask-med.png",
       dark: ""
     }
   },
@@ -291,7 +291,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/pirate-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_pirate-flymask-med.png",
       dark: ""
     }
   },
@@ -302,7 +302,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/plum-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_plum-flymask-med.png",
       dark: ""
     }
   },
@@ -313,7 +313,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/rosewood-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_rosewood-flymask-med.png",
       dark: ""
     }
   },
@@ -324,7 +324,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/rosey-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_rosey-flymask-med.png",
       dark: ""
     }
   },
@@ -335,7 +335,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/sage-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_sage-flymask-med.png",
       dark: ""
     }
   },
@@ -346,7 +346,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/sherbert-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_sherbert-flymask-med.png",
       dark: ""
     }
   },
@@ -357,7 +357,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/sunlow-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_sunlow-flymask-med.png",
       dark: ""
     }
   },
@@ -368,7 +368,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/teal-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_teal-flymask-med.png",
       dark: ""
     }
   },
@@ -379,7 +379,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/trafficcone-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_trafficcone-flymask-med.png",
       dark: ""
     }
   },
@@ -390,7 +390,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/ultramarine-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_ultramarine-flymask-med.png",
       dark: ""
     }
   },
@@ -401,7 +401,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/white-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_white-flymask-med.png",
       dark: ""
     }
   },
@@ -412,7 +412,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/winberry-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_wineberry-flymask-med.png",
       dark: ""
     }
   },
@@ -423,7 +423,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/fly-masks/light/winter-bageks-flymask-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/bageks_winter-flymask-med.png",
       dark: ""
     }
   },
