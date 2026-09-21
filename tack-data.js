@@ -719,7 +719,7 @@ const tackItems = [
     mod: "swem",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_black-halter-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/swem_black-halter-med.png",
       dark: ""
     }
   },
@@ -730,7 +730,7 @@ const tackItems = [
     mod: "swem",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_blue-halter-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/swem_blue-halter-med.png",
       dark: ""
     }
   },
@@ -741,7 +741,7 @@ const tackItems = [
     mod: "swem",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_brown-halter-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/swem_brown-halter-med.png",
       dark: ""
     }
   },
@@ -752,7 +752,7 @@ const tackItems = [
     mod: "swem",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_cyan-halter-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/swem_cyan-halter-med.png",
       dark: ""
     }
   },
@@ -763,7 +763,7 @@ const tackItems = [
     mod: "swem",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_gray-halter-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/swem_gray-halter-med.png",
       dark: ""
     }
   },
@@ -774,7 +774,7 @@ const tackItems = [
     mod: "swem",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_green-halter-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/swem_green-halter-med.png",
       dark: ""
     }
   },
@@ -785,7 +785,7 @@ const tackItems = [
     mod: "swem",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_lightblue-halter-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/swem_lightblue-halter-med.png",
       dark: ""
     }
   },
@@ -796,7 +796,7 @@ const tackItems = [
     mod: "swem",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_lightgray-halter-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/swem_lightgray-halter-med.png",
       dark: ""
     }
   },
@@ -807,7 +807,7 @@ const tackItems = [
     mod: "swem",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_lime-halter-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/swem_lime-halter-med.png",
       dark: ""
     }
   },
@@ -818,7 +818,7 @@ const tackItems = [
     mod: "swem",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_magenta-halter-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/swem_magenta-halter-med.png",
       dark: ""
     }
   },
@@ -829,7 +829,7 @@ const tackItems = [
     mod: "swem",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_orange-halter-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/swem_orange-halter-med.png",
       dark: ""
     }
   },
@@ -840,7 +840,7 @@ const tackItems = [
     mod: "swem",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_pink-halter-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/swem_pink-halter-med.png",
       dark: ""
     }
   },
@@ -851,7 +851,7 @@ const tackItems = [
     mod: "swem",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_purple-halter-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/swem_purple-halter-med.png",
       dark: ""
     }
   },
@@ -862,7 +862,7 @@ const tackItems = [
     mod: "swem",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_red-halter-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/swem_red-halter-med.png",
       dark: ""
     }
   },
@@ -873,7 +873,7 @@ const tackItems = [
     mod: "swem",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_white-halter-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/swem_white-halter-med.png",
       dark: ""
     }
   },
@@ -884,7 +884,7 @@ const tackItems = [
     mod: "swem",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/swem_yellow-halter-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/swem_yellow-halter-med.png",
       dark: ""
     }
   },
