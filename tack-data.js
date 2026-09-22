@@ -1751,7 +1751,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffyrosey-halter-light.png",
-      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffyrosey-halter-med.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks-fluffyrosey-halter-med.png",
       dark: ""
     }
   },
@@ -1773,7 +1773,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffysherbert-halter-light.png",
-      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffysherbert-halter-med.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks-fluffysherbert-halter-med.png",
       dark: ""
     }
   },
