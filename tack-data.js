@@ -1575,7 +1575,7 @@ const tackItems = [
     mod: "bageks",
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffyfirebrick-halter-light.png",
-      medium: "",
+      medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffyfirebrick-halter-med.png",
       dark: ""
     }
   },
