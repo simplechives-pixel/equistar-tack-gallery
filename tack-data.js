@@ -994,7 +994,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_rose-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/tres_rose-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/tres_rose-halter-dark.png"
     }
   },
 
