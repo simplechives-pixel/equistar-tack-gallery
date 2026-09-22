@@ -895,7 +895,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_arctic-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/tres_arctic-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/tres_arctic-halter-dark.png"
     }
   },
 
@@ -906,7 +906,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_creamsicle-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/tres_creamsicle-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/tres_creamsicle-halter-dark.png"
     }
   },
 
@@ -917,7 +917,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_dandelion-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/tres_dandelion-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/tres_dandelion-halter-dark.png"
     }
   },
 
@@ -928,7 +928,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_emerald-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/tres_emerald-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/tres_emerald-halter-dark.png"
     }
   },
 
@@ -939,7 +939,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_fuchsia-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/tres_fuchsia-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/tres_fuchsia-halter-dark.png"
     }
   },
 
@@ -950,7 +950,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_lavender-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/tres_lavender-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/tres_lavender-halter-dark.png"
     }
   },
 
@@ -961,7 +961,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_mint-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/tres_mint-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/tres_mint-halter-dark.png"
     }
   },
 
@@ -972,7 +972,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_navy-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/tres_navy-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/tres_navy-halter-dark.png"
     }
   },
 
@@ -983,7 +983,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_orchid-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/tres_orchid-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/tres_orchid-halter-dark.png"
     }
   },
 
@@ -1005,7 +1005,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_ruby-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/tres_ruby-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/tres_ruby-halter-dark.png"
     }
   },
 
@@ -1016,7 +1016,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_salmon-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/tres_salmon-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/tres_salmon-halter-dark.png"
     }
   },
 
@@ -1027,7 +1027,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_sunshine-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/tres_sunshine-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/tres_sunshine-halter-dark.png"
     }
   },
 
@@ -1038,7 +1038,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/tres_topaz-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/tres_topaz-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/tres_topaz-halter-dark.png"
     }
   },
   {
