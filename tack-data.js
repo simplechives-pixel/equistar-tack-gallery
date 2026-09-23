@@ -2241,4 +2241,170 @@ const tackItems = [
     }
   },
 
+/* HORSE ARMORS */
+
+{
+  name: "Arctic Cloth Armor",
+  type: "horse-armor",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/horse-armors/light/tres_arctic-armor-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/horse-armors/medium/tres_arctic-armor-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/horse-armors/dark/tres_arctic-armor-dark.png"
+  }
+},
+
+{
+  name: "Creamsicle Cloth Armor",
+  type: "horse-armor",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/horse-armors/light/tres_creamsicle-armor-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/horse-armors/medium/tres_creamsicle-armor-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/horse-armors/dark/tres_creamsicle-armor-dark.png"
+  }
+},
+
+{
+  name: "Dandelion Cloth Armor",
+  type: "horse-armor",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/horse-armors/light/tres_dandelion-armor-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/horse-armors/medium/tres_dandelion-armor-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/horse-armors/dark/tres_dandelion-armor-dark.png"
+  }
+},
+
+{
+  name: "Emerald Cloth Armor",
+  type: "horse-armor",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/horse-armors/light/tres_emerald-armor-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/horse-armors/medium/tres_emerald-armor-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/horse-armors/dark/tres_emerald-armor-dark.png"
+  }
+},
+
+{
+  name: "Fuchsia Cloth Armor",
+  type: "horse-armor",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/horse-armors/light/tres_fuchsia-armor-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/horse-armors/medium/tres_fuchsia-armor-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/horse-armors/dark/tres_fuchsia-armor-dark.png"
+  }
+},
+
+{
+  name: "Lavender Cloth Armor",
+  type: "horse-armor",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/horse-armors/light/tres_lavender-armor-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/horse-armors/medium/tres_lavender-armor-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/horse-armors/dark/tres_lavender-armor-dark.png"
+  }
+},
+
+{
+  name: "Mint Cloth Armor",
+  type: "horse-armor",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/horse-armors/light/tres_mint-armor-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/horse-armors/medium/tres_mint-armor-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/horse-armors/dark/tres_mint-armor-dark.png"
+  }
+},
+
+{
+  name: "Navy Cloth Armor",
+  type: "horse-armor",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/horse-armors/light/tres_navy-armor-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/horse-armors/medium/tres_navy-armor-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/horse-armors/dark/tres_navy-armor-dark.png"
+  }
+},
+
+{
+  name: "Orchid Cloth Armor",
+  type: "horse-armor",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/horse-armors/light/tres_orchid-armor-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/horse-armors/medium/tres_orchid-armor-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/horse-armors/dark/tres_orchid-armor-dark.png"
+  }
+},
+
+{
+  name: "Rose Cloth Armor",
+  type: "horse-armor",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/horse-armors/light/tres_rose-armor-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/horse-armors/medium/tres_rose-armor-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/horse-armors/dark/tres_rose-armor-dark.png"
+  }
+},
+
+{
+  name: "Ruby Cloth Armor",
+  type: "horse-armor",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/horse-armors/light/tres_ruby-armor-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/horse-armors/medium/tres_ruby-armor-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/horse-armors/dark/tres_ruby-armor-dark.png"
+  }
+},
+
+{
+  name: "Salmon Cloth Armor",
+  type: "horse-armor",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/horse-armors/light/tres_salmon-armor-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/horse-armors/medium/tres_salmon-armor-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/horse-armors/dark/tres_salmon-armor-dark.png"
+  }
+},
+
+{
+  name: "Sunshine Cloth Armor",
+  type: "horse-armor",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/horse-armors/light/tres_sunshine-armor-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/horse-armors/medium/tres_sunshine-armor-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/horse-armors/dark/tres_sunshine-armor-dark.png"
+  }
+},
+
+{
+  name: "Topaz Cloth Armor",
+  type: "horse-armor",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/horse-armors/light/tres_topaz-armor-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/horse-armors/medium/tres_topaz-armor-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/horse-armors/dark/tres_topaz-armor-dark.png"
+  }
+},
+
+{
+  name: "White Cloth Horse Armor",
+  type: "horse-armor",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/horse-armors/light/tres_white-armor-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/horse-armors/medium/tres_white-armor-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/horse-armors/dark/tres_white-armor-dark.png"
+  }
+},
 ];
