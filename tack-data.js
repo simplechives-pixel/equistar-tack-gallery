@@ -1048,7 +1048,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_black-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_black-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_black-halter-dark.png"
     }
   },
 
@@ -1059,7 +1059,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_bloodorange-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_bloodorange-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_bloodorange-halter-dark.png"
     }
   },
 
@@ -1070,7 +1070,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_blush-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_blush-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_blush-halter-dark.png"
     }
   },
 
@@ -1081,7 +1081,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_burnsienna-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_burntsienna-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_burntsienna-halter-dark.png"
     }
   },
 
@@ -1092,7 +1092,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_carmine-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_carmine-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_carmine-halter-dark.png"
     }
   },
 
@@ -1103,7 +1103,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_charcoal-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_charcoal-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_charcoal-halter-dark.png"
     }
   },
 
@@ -1114,7 +1114,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_colbat-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_colbat-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_colbat-halter-dark.png"
     }
   },
 
@@ -1125,7 +1125,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_coral-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_coral-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_coral-halter-dark.png"
     }
   },
 
@@ -1136,7 +1136,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_cosmos-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_cosmos-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_cosmos-halter-dark.png"
     }
   },
 
@@ -1147,7 +1147,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_darkumber-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_darkumber-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_darkumber-halter-dark.png"
     }
   },
 
@@ -1158,7 +1158,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_electricblue-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_electricblue-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_electricblue-halter-dark.png"
     }
   },
 
@@ -1169,7 +1169,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_firebrick-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_firebrick-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_firebrick-halter-dark.png"
     }
   },
 
@@ -1180,7 +1180,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_forest-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_forest-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_forest-halter-dark.png"
     }
   },
 
@@ -1191,7 +1191,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_grape-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_grape-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_grape-halter-dark.png"
     }
   },
 
@@ -1202,7 +1202,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_honey-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_honey-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_honey-halter-dark.png"
     }
   },
 
@@ -1213,7 +1213,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_jade-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_jade-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_jade-halter-dark.png"
     }
   },
 
@@ -1224,7 +1224,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_lavender-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_lavender-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_lavender-halter-dark.png"
     }
   },
 
@@ -1235,7 +1235,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_latte-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_latte-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_latte-halter-dark.png"
     }
   },
 
@@ -1246,7 +1246,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_merlot-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_merlot-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_merlot-halter-dark.png"
     }
   },
 
@@ -1257,7 +1257,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_midnightblue-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_midnightblue-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_midnightblue-halter-dark.png"
     }
   },
 
@@ -1268,7 +1268,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_mint-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_mint-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_mint-halter-dark.png"
     }
   },
 
@@ -1279,7 +1279,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_moss-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_moss-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_moss-halter-dark.png"
     }
   },
 
@@ -1290,7 +1290,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_mulberry-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_mulberry-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_mulberry-halter-dark.png"
     }
   },
 
@@ -1301,7 +1301,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_navy-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_navy-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_navy-halter-dark.png"
     }
   },
 
@@ -1312,7 +1312,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_pirate-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_pirate-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_pirate-halter-dark.png"
     }
   },
 
@@ -1323,7 +1323,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_plum-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_plum-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_plum-halter-dark.png"
     }
   },
 
@@ -1334,7 +1334,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_rosewood-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_rosewood-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_rosewood-halter-dark.png"
     }
   },
 
@@ -1345,7 +1345,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_rosey-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_rosey-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_rosey-halter-dark.png"
     }
   },
 
@@ -1356,7 +1356,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_sage-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_sage-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_sage-halter-dark.png"
     }
   },
 
@@ -1367,7 +1367,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_sherbert-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_sherbert-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_sherbert-halter-dark.png"
     }
   },
 
@@ -1378,7 +1378,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_sunlow-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_sunlow-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_sunlow-halter-dark.png"
     }
   },
 
@@ -1389,7 +1389,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_teal-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_teal-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_teal-halter-dark.png"
     }
   },
 
@@ -1400,7 +1400,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_trafficcone-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_trafficcone-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_trafficcone-halter-dark.png"
     }
   },
 
@@ -1411,7 +1411,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_ultramarine-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_ultramarine-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_ultramarine-halter-dark.png"
     }
   },
 
@@ -1422,7 +1422,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_white-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_white-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_white-halter-dark.png"
     }
   },
 
@@ -1433,7 +1433,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_wineberry-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_wineberry-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_wineberry-halter-dark.png"
     }
   },
 
@@ -1444,7 +1444,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_winter-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_winter-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_winter-halter-dark.png"
     }
   },
 
@@ -1455,7 +1455,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffyblack-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffyblack-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffyblack-halter-dark.png"
     }
   },
 
@@ -1466,7 +1466,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffybloodorange-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffybloodorange-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffybloodorange-halter-dark.png"
     }
   },
 
@@ -1477,7 +1477,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffyblush-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffyblush-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffyblush-halter-dark.png"
     }
   },
 
@@ -1488,7 +1488,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffyburntsienna-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffyburntsienna-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffyburntsienna-halter-dark.png"
     }
   },
 
@@ -1499,7 +1499,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffycarmine-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffycarmine-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffycarmine-halter-dark.png"
     }
   },
 
@@ -1510,7 +1510,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffycharcoal-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffycharcoal-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffycharcoal-halter-dark.png"
     }
   },
 
@@ -1521,7 +1521,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffycolbat-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffycolbat-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffycolbat-halter-dark.png"
     }
   },
 
@@ -1532,7 +1532,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffycoral-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffycoral-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffycoral-halter-dark.png"
     }
   },
 
@@ -1543,7 +1543,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffycosmos-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffycosmos-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffycosmos-halter-dark.png"
     }
   },
 
@@ -1554,7 +1554,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffydarkumber-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffydarkumber-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffydarkumber-halter-dark.png"
     }
   },
 
@@ -1565,7 +1565,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffyelectricblue-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffyelectricblue-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffyelectricblue-halter-dark.png"
     }
   },
 
@@ -1576,7 +1576,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffyfirebrick-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffyfirebrick-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffyfirebrick-halter-dark.png"
     }
   },
 
@@ -1587,7 +1587,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffyforest-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffyforest-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffyforest-halter-dark.png"
     }
   },
 
@@ -1598,7 +1598,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffygrape-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffygrape-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffygrape-halter-dark.png"
     }
   },
 
@@ -1609,7 +1609,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffyhoney-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffyhoney-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffyhoney-halter-dark.png"
     }
   },
 
@@ -1620,7 +1620,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffyjade-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffyjade-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffyjade-halter-dark.png"
     }
   },
 
@@ -1631,7 +1631,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffylavender-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffylavender-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffylavender-halter-dark.png"
     }
   },
 
@@ -1642,7 +1642,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffylatte-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffylatte-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffylatte-halter-dark.png"
     }
   },
 
@@ -1653,7 +1653,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffymerlot-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffymerlot-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffymerlot-halter-dark.png"
     }
   },
 
@@ -1664,7 +1664,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffymidnightblue-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffymidnightblue-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffymidnightblue-halter-dark.png"
     }
   },
 
@@ -1675,7 +1675,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffymint-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffymint-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffymint-halter-dark.png"
     }
   },
 
@@ -1686,7 +1686,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffymoss-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffymoss-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffymoss-halter-dark.png"
     }
   },
 
@@ -1697,7 +1697,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffymulberry-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffymulberry-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffymulberry-halter-dark.png"
     }
   },
 
@@ -1708,7 +1708,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffynavy-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffynavy-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffynavy-halter-dark.png"
     }
   },
 
@@ -1719,7 +1719,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffypirate-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffypirate-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffypirate-halter-dark.png"
     }
   },
 
@@ -1730,7 +1730,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffyplum-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffyplum-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffyplum-halter-dark.png"
     }
   },
 
@@ -1741,7 +1741,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffyrosewood-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffyrosewood-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffyrosewood-halter-dark.png"
     }
   },
 
@@ -1752,7 +1752,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffyrosey-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks-fluffyrosey-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks-fluffyrosey-halter-dark.png"
     }
   },
 
@@ -1763,7 +1763,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffysage-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffysage-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffysage-halter-dark.png"
     }
   },
 
@@ -1774,7 +1774,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffysherbert-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks-fluffysherbert-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks-fluffysherbert-halter-dark.png"
     }
   },
 
@@ -1785,7 +1785,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffysunlow-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffysunlow-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffysunlow-halter-dakr.png"
     }
   },
 
@@ -1796,7 +1796,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffyteal-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffyteal-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffyteal-halter-dark.png"
     }
   },
 
@@ -1807,7 +1807,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffytrafficcone-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffytrafficcone-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffytrafficcone-halter-dark.png"
     }
   },
 
@@ -1818,7 +1818,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffyultramarine-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffyultramarine-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffyultramarine-halter-dark.png"
     }
   },
 
@@ -1829,7 +1829,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffywhite-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffywhite-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffywhite-halter-dark.png"
     }
   },
 
@@ -1840,7 +1840,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffywineberry-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffywineberry-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffywineberry-halter-dark.png"
     }
   },
 
@@ -1851,7 +1851,7 @@ const tackItems = [
     images: {
       light: "https://equistar-tack-gallery.pages.dev/images/halters/light/bageks_fluffywinter-halter-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/halters/medium/bageks_fluffywinter-halter-med.png",
-      dark: ""
+      dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffywinter-halter-dark.png"
     }
   }, 
 ];
