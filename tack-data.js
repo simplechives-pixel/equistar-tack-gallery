@@ -1854,4 +1854,391 @@ const tackItems = [
       dark: "https://equistar-tack-gallery.pages.dev/images/halters/dark/bageks_fluffywinter-halter-dark.png"
     }
   }, 
+
+/*EAR  BONNETS*/  
+    {
+    name: "Classic Black Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_black-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_black-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_black-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Blood Orange Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_bloodorange-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_bloodorange-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_bloodorange-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Blush Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_blush-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_blush-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_blush-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Burnt Sienna Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_burntsienna-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_burntsienna-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_burntsienna-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Carmine Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_carmine-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_carmine-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_carmine-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Charcoal Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_charcoal-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_charcoal-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_charcoal-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Colbat Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_colbat-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_colbat-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_colbat-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Coral Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_coral-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_coral-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_coral-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Dark Umber Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_darkumber-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_darkumber-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_darkumber-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Electric Blue Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_electricblue-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_electricblue-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_electricblue-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Forest Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_forest-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_forest-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_forest-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Grape Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_grape-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_grape-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_grape-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Honey Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_honey-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_honey-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_honey-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Jade Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_jade-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_jade-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_jade-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Latte Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_latte-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_latte-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_latte-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Lavender Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_lavender-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_lavender-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_lavender-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Merlot Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_merlot-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_merlot-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_merlot-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Midnight Blue Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_midnightblue-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_midnightblue-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_midnightblue-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Mint Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_mint-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_mint-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_mint-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Moss Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_moss-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_moss-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_moss-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Mulberry Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_mulberry-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_mulberry-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_mulberry-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Navy Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_navy-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_navy-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_navy-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Pirate Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_pirate-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_pirate-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_pirate-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Plum Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_plum-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_plum-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_plum-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Rosewood Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_rosewood-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_rosewood-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_rosewood-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Rosey Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_rosey-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_rosey-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_rosey-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Sage Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_sage-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_sage-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_sage-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Sherbert Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_sherbert-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_sherbert-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_sherbert-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Sunlow Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_sunlow-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_sunlow-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_sunlow-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Teal Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_teal-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_teal-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_teal-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Traffic Cone Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_trafficcone-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_trafficcone-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_trafficcone-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Ultramarine Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_ultramarine-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_ultramarine-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_ultramarine-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic White Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_white-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_white-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_white-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Wineberry Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_wineberry-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_wineberry-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_wineberry-earbonnet-dark.png"
+    }
+  },
+
+  {
+    name: "Classic Winter Earbonnet",
+    type: "ear-bonnet",
+    mod: "bageks",
+    images: {
+      light: "https://equistar-tack-gallery.pages.dev/images/earbonnets/light/bageks_winter-earbonnet-light.png",
+      medium: "https://equistar-tack-gallery.pages.dev/images/earbonnets/medium/bageks_winter-earbonnet-med.png",
+      dark: "https://equistar-tack-gallery.pages.dev/images/earbonnets/dark/bageks_winter-earbonnet-dark.png"
+    }
+  },
+
 ];
