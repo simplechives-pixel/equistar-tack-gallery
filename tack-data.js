@@ -4,7 +4,7 @@ const tackItems = [
     type: "fly-mask",
     mod: "tres",
     images: {
-      light: "https://equistar-tack-gallery.pages.dev/images/arctic-fly-mask-light.png",
+      light: "https://equistar-tack-gallery.pages.dev/images/fly-marks/light/tres_arctic-flymask-light.png",
       medium: "https://equistar-tack-gallery.pages.dev/images/fly-masks/medium/tres_arctic-flymask-med.png",
       dark: "https://equistar-tack-gallery.pages.dev/images/fly-masks/dark/tres_arctic-flymask-dark.png"
     }
