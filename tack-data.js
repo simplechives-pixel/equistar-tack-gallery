@@ -2415,9 +2415,9 @@ const tackItems = [
   type: "saddle-bag",
   mod: "swem",
   images: {
-    light: "",
-    medium: "",
-    dark: ""
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/swem_black-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/swem_black-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/swem_black-saddlebag-dark.png"
   }
 },
 
@@ -2426,9 +2426,9 @@ const tackItems = [
   type: "saddle-bag",
   mod: "swem",
   images: {
-    light: "",
-    medium: "",
-    dark: ""
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/swem_blue-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/swem_blue-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/swem_blue-saddlebag-dark.png"
   }
 },
 
@@ -2437,9 +2437,9 @@ const tackItems = [
   type: "saddle-bag",
   mod: "swem",
   images: {
-    light: "",
-    medium: "",
-    dark: ""
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/swem_brown-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/swem_brown-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/swem_brown-saddlebag-dark.png"
   }
 },
 
@@ -2448,9 +2448,9 @@ const tackItems = [
   type: "saddle-bag",
   mod: "swem",
   images: {
-    light: "",
-    medium: "",
-    dark: ""
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/swem_cyan-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/swem_cyan-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/swem_cyan-saddlebag-dark.png"
   }
 },
 
@@ -2459,9 +2459,9 @@ const tackItems = [
   type: "saddle-bag",
   mod: "swem",
   images: {
-    light: "",
-    medium: "",
-    dark: ""
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/swem_gray-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/swem_gray-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/swem_gray-saddlebag-dark.png"
   }
 },
 
@@ -2470,9 +2470,9 @@ const tackItems = [
   type: "saddle-bag",
   mod: "swem",
   images: {
-    light: "",
-    medium: "",
-    dark: ""
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/swem_green-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/swem_green-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/swem_green-saddlebag-dark.png"
   }
 },
 
@@ -2481,9 +2481,9 @@ const tackItems = [
   type: "saddle-bag",
   mod: "swem",
   images: {
-    light: "",
-    medium: "",
-    dark: ""
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/swem_lightblue-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/swem_lightblue-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/swem_lightblue-saddlebag-dark.png"
   }
 },
 
@@ -2492,9 +2492,9 @@ const tackItems = [
   type: "saddle-bag",
   mod: "swem",
   images: {
-    light: "",
-    medium: "",
-    dark: ""
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/swem_lightgray-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/swem_lightgray-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/swem_lightgray-saddlebag-dark.png"
   }
 },
 
@@ -2503,9 +2503,9 @@ const tackItems = [
   type: "saddle-bag",
   mod: "swem",
   images: {
-    light: "",
-    medium: "",
-    dark: ""
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/swem_lime-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/swem_lime-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/swem_lime-saddlebag-dark.png"
   }
 },
 
@@ -2514,9 +2514,9 @@ const tackItems = [
   type: "saddle-bag",
   mod: "swem",
   images: {
-    light: "",
-    medium: "",
-    dark: ""
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/swem_magenta-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/swem_magenta-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/swem_magenta-saddlebag-dark.png"
   }
 },
 
@@ -2525,9 +2525,9 @@ const tackItems = [
   type: "saddle-bag",
   mod: "swem",
   images: {
-    light: "",
-    medium: "",
-    dark: ""
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/swem_orange-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/swem_orange-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/swem_orange-saddlebag-dark.png"
   }
 },
 
@@ -2536,9 +2536,9 @@ const tackItems = [
   type: "saddle-bag",
   mod: "swem",
   images: {
-    light: "",
-    medium: "",
-    dark: ""
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/swem_pink-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/swem_pink-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/swem_pink-saddlebag-dark.png"
   }
 },
 
@@ -2547,9 +2547,9 @@ const tackItems = [
   type: "saddle-bag",
   mod: "swem",
   images: {
-    light: "",
-    medium: "",
-    dark: ""
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/swem_purple-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/swem_purple-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/swem_purple-saddlebag-dark.png"
   }
 },
 
@@ -2558,9 +2558,9 @@ const tackItems = [
   type: "saddle-bag",
   mod: "swem",
   images: {
-    light: "",
-    medium: "",
-    dark: ""
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/swem_red-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/swem_red-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/swem_red-saddlebag-dark.png"
   }
 },
 
@@ -2569,9 +2569,9 @@ const tackItems = [
   type: "saddle-bag",
   mod: "swem",
   images: {
-    light: "",
-    medium: "",
-    dark: ""
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/swem_white-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/swem_white-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/swem_white-saddlebag-dark.png"
   }
 },
 
@@ -2580,9 +2580,174 @@ const tackItems = [
   type: "saddle-bag",
   mod: "swem",
   images: {
-    light: "",
-    medium: "",
-    dark: ""
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/swem_yellow-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/swem_yellow-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/swem_yellow-saddlebag-dark.png"
   }
-},  
+},
+
+{
+  name: "Arctic Saddle Bag",
+  type: "saddle-bag",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/tres_arctic-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/tres_arctic-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/tres_arctic-saddlebag-dark.png"
+  }
+},
+
+{
+  name: "Creamsicle Saddle Bag",
+  type: "saddle-bag",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/tres_creamsicle-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/tres_creamsicle-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/tres_creamsicle-saddlebag-dark.png"
+  }
+},
+
+{
+  name: "Dandelion Saddle Bag",
+  type: "saddle-bag",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/tres_dandelion-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/tres_dandelion-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/tres_dandelion-saddlebag-dark.png"
+  }
+},
+
+{
+  name: "Emerald Saddle Bag",
+  type: "saddle-bag",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/tres_emerald-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/tres_emerald-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/tres_emerald-saddlebag-dark.png"
+  }
+},
+
+{
+  name: "Fuchsia Saddle Bag",
+  type: "saddle-bag",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/tres_fuchsia-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/tres_fuchsia-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/tres_fuchsia-saddlebag-dark.png"
+  }
+},
+
+{
+  name: "Lavender Saddle Bag",
+  type: "saddle-bag",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/tres_lavender-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/tres_lavender-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/tres_lavender-saddlebag-dark.png"
+  }
+},
+
+{
+  name: "Mint Saddle Bag",
+  type: "saddle-bag",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/tres_mint-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/tres_mint-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/tres_mint-saddlebag-dark.png"
+  }
+},
+
+{
+  name: "Navy Saddle Bag",
+  type: "saddle-bag",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/tres_navy-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/tres_navy-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/tres_navy-saddlebag-dark.png"
+  }
+},
+
+{
+  name: "Orchid Saddle Bag",
+  type: "saddle-bag",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/tres_orchid-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/tres_orchid-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/tres_orchid-saddlebag-dark.png"
+  }
+},
+
+{
+  name: "Rainbow Saddle Bag",
+  type: "saddle-bag",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/tres_rainbow-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/tres_rainbow-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/tres_rainbow-saddlebag-dark.png"
+  }
+},
+
+{
+  name: "Rose Saddle Bag",
+  type: "saddle-bag",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/tres_rose-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/tres_rose-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/tres_rose-saddlebag-dark.png"
+  }
+},
+
+{
+  name: "Ruby Saddle Bag",
+  type: "saddle-bag",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/tres_ruby-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/tres_ruby-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/tres_ruby-saddlebag-dark.png"
+  }
+},
+
+{
+  name: "Salmon Saddle Bag",
+  type: "saddle-bag",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/tres_salmon-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/tres_salmon-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/tres_salmon-saddlebag-dark.png"
+  }
+},
+
+{
+  name: "Sunshine Saddle Bag",
+  type: "saddle-bag",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/tres_sunshine-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/tres_sunshine-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/tres_sunshine-saddlebag-dark.png"
+  }
+},
+
+{
+  name: "Topaz Saddle Bag",
+  type: "saddle-bag",
+  mod: "tres",
+  images: {
+    light: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/light/tres_topaz-saddlebag-light.png",
+    medium: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/medium/tres_topaz-saddlebag-med.png",
+    dark: "https://equistar-tack-gallery.pages.dev/images/saddle-bags/dark/tres_topaz-saddlebag-dark.png"
+  }
+},
 ];
