@@ -2407,4 +2407,182 @@ const tackItems = [
     dark: "https://equistar-tack-gallery.pages.dev/images/horse-armors/dark/tres_white-armor-dark.png"
   }
 },
+
+/* SADDLE BAGS */
+  
+{
+  name: "Black Saddle Bag",
+  type: "saddle-bag",
+  mod: "swem",
+  images: {
+    light: "",
+    medium: "",
+    dark: ""
+  }
+},
+
+{
+  name: "Blue Saddle Bag",
+  type: "saddle-bag",
+  mod: "swem",
+  images: {
+    light: "",
+    medium: "",
+    dark: ""
+  }
+},
+
+{
+  name: "Brown Saddle Bag",
+  type: "saddle-bag",
+  mod: "swem",
+  images: {
+    light: "",
+    medium: "",
+    dark: ""
+  }
+},
+
+{
+  name: "Cyan Saddle Bag",
+  type: "saddle-bag",
+  mod: "swem",
+  images: {
+    light: "",
+    medium: "",
+    dark: ""
+  }
+},
+
+{
+  name: "Gray Saddle Bag",
+  type: "saddle-bag",
+  mod: "swem",
+  images: {
+    light: "",
+    medium: "",
+    dark: ""
+  }
+},
+
+{
+  name: "Green Saddle Bag",
+  type: "saddle-bag",
+  mod: "swem",
+  images: {
+    light: "",
+    medium: "",
+    dark: ""
+  }
+},
+
+{
+  name: "Light Blue Saddle Bag",
+  type: "saddle-bag",
+  mod: "swem",
+  images: {
+    light: "",
+    medium: "",
+    dark: ""
+  }
+},
+
+{
+  name: "Light Gray Saddle Bag",
+  type: "saddle-bag",
+  mod: "swem",
+  images: {
+    light: "",
+    medium: "",
+    dark: ""
+  }
+},
+
+{
+  name: "Lime Saddle Bag",
+  type: "saddle-bag",
+  mod: "swem",
+  images: {
+    light: "",
+    medium: "",
+    dark: ""
+  }
+},
+
+{
+  name: "Magenta Saddle Bag",
+  type: "saddle-bag",
+  mod: "swem",
+  images: {
+    light: "",
+    medium: "",
+    dark: ""
+  }
+},
+
+{
+  name: "Orange Saddle Bag",
+  type: "saddle-bag",
+  mod: "swem",
+  images: {
+    light: "",
+    medium: "",
+    dark: ""
+  }
+},
+
+{
+  name: "Pink Saddle Bag",
+  type: "saddle-bag",
+  mod: "swem",
+  images: {
+    light: "",
+    medium: "",
+    dark: ""
+  }
+},
+
+{
+  name: "Purple Saddle Bag",
+  type: "saddle-bag",
+  mod: "swem",
+  images: {
+    light: "",
+    medium: "",
+    dark: ""
+  }
+},
+
+{
+  name: "Red Saddle Bag",
+  type: "saddle-bag",
+  mod: "swem",
+  images: {
+    light: "",
+    medium: "",
+    dark: ""
+  }
+},
+
+{
+  name: "White Saddle Bag",
+  type: "saddle-bag",
+  mod: "swem",
+  images: {
+    light: "",
+    medium: "",
+    dark: ""
+  }
+},
+
+{
+  name: "Yellow Saddle Bag",
+  type: "saddle-bag",
+  mod: "swem",
+  images: {
+    light: "",
+    medium: "",
+    dark: ""
+  }
+},  
 ];
